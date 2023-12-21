@@ -292,6 +292,17 @@ ol {
     margin: 0 auto;
   }
 
+  @media (min-resolution: 192dpi) {
+    .hero-section {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office_2x.jpg);
+    }
+  }
+
   .hero {
     color: #fff;
     font-size: 36px;
@@ -1035,6 +1046,17 @@ ol {
     padding-top: 112px;
     padding-bottom: 112px;
     margin: 0 auto;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .hero-section {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office_2x.jpg);
+    }
   }
 
   .hero {
