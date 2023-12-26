@@ -282,7 +282,7 @@ ol {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office.jpg);
+      url(../images/Dark-bg-mobile.jpg);
     max-width: 767px;
     background-repeat: no-repeat;
     background-position: center;
@@ -299,7 +299,7 @@ ol {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office_2x.jpg);
+        url(../images/Dark-bg-mobile2x.jpg);
     }
   }
 
@@ -1038,7 +1038,7 @@ ol {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office.jpg);
+      url(../images/Dark-bg-tablet.jpg);
     max-width: 1157px;
     background-repeat: no-repeat;
     background-position: center;
@@ -1055,7 +1055,7 @@ ol {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office_2x.jpg);
+        url(../images/Dark-bg-tablet2x.jpg);
     }
   }
 
@@ -1667,9 +1667,26 @@ ol {
   }
   /*-------------- DESKTOP / HERO SECTION 1 --------------------------*/
   .hero-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
     max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .hero-section {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office_2x.jpg);
+    }
   }
 
   .order-button {
